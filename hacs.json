@@ -1,5 +1,5 @@
 {
-  "name": "AIMP Media Player",
+  "name": "Pandora Media Player",
   "content_in_root": true,
   "domains": "media_player",
   "iot_class": "Local Polling",
