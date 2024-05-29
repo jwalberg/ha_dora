@@ -1,5 +1,5 @@
 {
-  "name": "Pandora Media Player",
+  "name": "HA/dora Media Player",
   "content_in_root": true,
   "domains": "media_player",
   "iot_class": "Local Polling",
