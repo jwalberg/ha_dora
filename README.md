@@ -1,5 +1,5 @@
 # ha_dora
-Custom component for Home Assistant to control Pandora, originally forked from [hadora_uid](https://github.com/xilense/aimp_custom_component) 
+Custom component for Home Assistant to control Pandora, originally forked from https://github.com/xilense/aimp_custom_component.
 
 # screenshot
 
