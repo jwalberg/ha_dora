@@ -1,5 +1,5 @@
 # ha_dora
-Custom component for Home Assistant to controling Pandora
+Custom component for Home Assistant to control Pandora
 
 # screenshot
 
