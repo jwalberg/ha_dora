@@ -1,1 +1,1 @@
-"""The aimp component."""
+"""The ha_dora component."""
