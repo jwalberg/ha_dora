@@ -1,11 +1,11 @@
 {
-  "domain": "aimp",
-  "name": "AIMP Media Player",
-  "documentation": "https://github.com/xilense/aimp_custom_component",
-  "issue_tracker": "https://github.com/xilense/aimp_custom_component/issues",
+  "domain": "pandora",
+  "name": "Pandora Media Player",
+  "documentation": "https://github.com/jwalberg/ha_dora",
+  "issue_tracker": "https://github.com/jwalberg/ha_dora/issues",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@xilense"],
+  "codeowners": ["@jwalberg"],
   "iot_class": "local_polling",
   "quality_scale": "silver",
   "version": "1.3.2"
