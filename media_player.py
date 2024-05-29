@@ -23,9 +23,9 @@ from homeassistant.components.media_player.const import (
     SUPPORT_VOLUME_SET,
 )
 from homeassistant.const import (
-    CONF_HOST,
+    CONF_HADORA_UID,
     CONF_NAME,
-    CONF_PORT,
+    CONF_HADORA_PWD,
     STATE_IDLE,
     STATE_OFF,
     STATE_PAUSED,
@@ -59,17 +59,17 @@ PLAYLIST_UPDATE_INTERVAL = timedelta(seconds=15)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
-        vol.Required(CONF_HOST): cv.string,
+        vol.Required(""): cv.string,
         vol.Optional(CONF_NAME, default=DEFAULT_NAME): cv.string,
-        vol.Optional(CONF_PORT, default=DEFAULT_PORT): cv.port,
+        vol.Optional("", default=DEFAULT_PORT): cv.port,
     }
 )
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the hadora platform."""
     name = config.get(CONF_NAME)
-    host = config.get(CONF_HOST)
-    port = config.get(CONF_PORT)
+    host = config.get("")
+    port = config.get("")
 
     add_entities([HAdora(name, host, port, hass)], True)
 
